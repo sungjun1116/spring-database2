@@ -58,6 +58,7 @@ class ItemRepositoryTest {
     }
 
     @Test
+    // @Commit - update SQL 보고 싶으면 사용
     void updateItem() {
         //given
         Item item = new Item("item1", 10000, 10);
